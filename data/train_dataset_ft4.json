@@ -8286,4 +8286,811 @@
     ]
   }
 }
-]
+,
+{
+  "id": "43905765",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4246209.Broken_road_sign_will_be_replaced_in_four_months/",
+  "text": "Broken road sign will be replaced in four months. A road sign in East Oxford which was damaged a year ago is set to be replaced. People living in Divinity Road, first noticed the letters to their street sign had been removed in March last year. Oxford City Council has said it did not realise the letters were missing and pledged to install a new cast-iron or aluminium replacement in four months\u2019 time. A temporary sign will be put up in a couple of weeks. Elizabeth Mills, 57, of Divinity Road, said: \u201cIt\u2019s unsightly and it\u2019s dangerous. If you are looking for Divinity Road and you don\u2019t know where you are going, you are dithering about trying to see if it\u2019s the road.\u201d Father-of-one Simon Collcutt, 57, who lives nearest to the missing sign, said: \u201cThis is a boisterous area and anything that isn\u2019t really nailed down solid will be smashed in no time.\u201d",
+  "corrections": {
+    "Oxford": [
+      51.7522,
+      -1.25596
+    ]
+  },
+  "predictions": {
+    "Oxford": [
+      51.7539,
+      -1.2534
+    ],
+    "East Oxford": [
+      51.7553,
+      -1.2565
+    ],
+    "Divinity Road": [
+      51.7547,
+      -1.2558
+    ]
+  }
+},
+{
+  "id": "43963049",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4246845.Headington__Mum_jailed_for_fake_passport/",
+  "text": "Headington: Mum jailed for fake passport. A FAILED asylum seeker was jailed for 11 months yesterday after using a fake passport to work as a carer. Pauline Munene, 49, used a fake Kenyan passport to gain work with Chrysalis Community Care, formerly known as Blue Arrow, while living in Gladstone Road, Headington, Oxford. She was caught after a raid on her home last November. Oxford Crown Court heard Munene arrived in the UK from Nairobi in 2002 but her asylum application was rejected two years later. Munene admitted two charges of deception, two of possessing false identity documents with intent and one of fraud. Stephen Parker, defending, said Munene had been funding her 15-year-old daughter\u2019s education back in Kenya. Judge Julian Hall said: \u201cYou have played fast and loose with the immigration rules in this country but simultaneously you have been a useful person to have here, doing work that a lot of people would not do. \u201cBut rules are rules and I have to punish you for breaking them.\u201d",
+  "corrections": {
+    "Headington": [
+      51.75,
+      -1.2
+    ],
+    "Republic of Kenya": [
+      1.0,
+      38.0
+    ],
+    "Oxford": [
+      51.7522,
+      -1.25596
+    ],
+    "Nairobi": [
+      -1.28333,
+      36.8167
+    ]
+  },
+  "predictions": {
+    "Nairobi": [
+      1.2923,
+      36.8178
+    ],
+    "Oxford": [
+      51.7539,
+      -1.2277
+    ],
+    "Gladstone Road": [
+      51.7554,
+      -1.2445
+    ],
+    "Headington": [
+      51.7543,
+      -1.2458
+    ]
+  }
+},
+{
+  "id": "44002400",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4247031.Council_backs_rival_ecotown_plan/",
+  "text": "Council backs rival ecotown plan. Councillors backed their own plan for a rival ecotown to the proposed Weston Otmoor scheme despite a stormy meeting tonight. It devised the scheme as a rival to the original plan to build 15,000 homes near Weston-on-the-Green. Cherwell claims Weston Otmoor would damage Bicester and Kidlington, while its own plan would benefit the former. But villagers and landowners mounted angry opposition at tonight's meeting, rounding on the north west option's chief architect, Cherwell leader Barry Wood. They have complained the scheme was drawn up without consulting them. Patrick Woodrow, of Bucknell, told Mr Wood to \"find his spine\" and stand up to housing minister Margaret Beckett. Landowner Rosemary Henson, of Himley farm in Chesteron, said: \"I bitterly resent being thrown to the wolves as a decoy to divert attention from Weston Otmoor.\" But Mr Wood said the development would represent prosperity and investment in Bicester. He added the infrastructure Bicester desperately needed would only come with a large scale development like the north west Bicester proposal. Councillors backed the move to officially put North West Bicester in front of the Government as a better option to Weston Otmoor. A shortlist of ecotowns is expected to be drawn up in the summer.",
+  "corrections": {
+    "Bicester": [
+      51.9,
+      -1.15
+    ],
+    "Kidlington": [
+      51.8167,
+      -1.28333
+    ]
+  },
+  "predictions": {
+    "Bucknell": [
+      52.1333,
+      -1.2833
+    ],
+    "Chesteron": [
+      51.9333,
+      -1.0667
+    ],
+    "Cherwell": [
+      51.95,
+      -1.05
+    ],
+    "England": [
+      54.0,
+      -2.0
+    ],
+    "Himley": [
+      52.0333,
+      -1.2833
+    ],
+    "Kidlington": [
+      51.9,
+      -1.25
+    ],
+    "London": [
+      51.5,
+      -0.08
+    ],
+    "North West Bicester": [
+      51.95,
+      -1.05
+    ],
+    "Oxfordshire": [
+      52.0,
+      -1.2
+    ],
+    "United Kingdom": [
+      54.0,
+      -2.0
+    ],
+    "Weston-on-the-Green": [
+      51.95,
+      -1.05
+    ]
+  }
+},
+{
+  "id": "44212492",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4248584.Cancer_drugs_prompt_Bicester_teenager_s_slim/",
+  "text": "Cancer drugs prompt Bicester teenager's slim. A TEENAGER who is fighting leukaemia has joined a slimming club after being told by doctors to lose weight. Matthew Holder-Wooloff, 15, from Bicester, was introduced to Slimming World classes by his mother just over a year ago, after his treatment for leukaemia caused him to pile on over two stone. The steroids that doctors prescribed for Matthew, a student at The Cooper School in Bicester, after he was diagnosed with the blood and bone marrow cancer also reduced his bone density, so the young rugby fan found he was too weak to play his favourite sport. Matthew\u2019s mother, Jackie, said: \u201cMatthew was diagnosed in 2007. We thought he had come down with a really bad cold and cough and couldn\u2019t seem to shake it off, so we took him to the doctors. \u201cAs part of the treatment he was given steroids and one of the side effects is a huge appetite.\u201d Matthew, who is 5ft 8ins tall, saw his weight jump from about 12 stone to 14 stone. Mrs Holder-Wooloff said: \u201cI decided to take Matthew to Slimming World because I\u2019d seen how well it worked for other members of my family. \u201cWe ran it past the hospital and they were very happy with the idea. \u201cMy sister\u2019s family lost about 17 stone between four of them there, so we knew it worked. \u201cWhen he was in hospital I found I gained a lot of weight too because I was spending all of my time with him and living on food from the cafe, so I went with him.\u201d In the year Mrs Holder-Wooloff and her son have been members, she has lost two stone and Matthew has shed a stone and half. According to Slimming World, its members lose weight through a combination of a healthy diet, moderate exercise, and group support sessions where members are encouraged to shun bad eating habits. The sessions cost \u00a34.50 a week, but children between 11 and 15 can join for free if they are accompanied by a parent or guardian. Although it will be another 14 months before Matthew can be given the all-clear from the disease, he and his mother intend to carry on with the weekly sessions at Southwold School, in Holm Way, Bicester. Matthew said: \u201cIt has absolutely been such a big change for me, but I am much happier with what I\u2019m eating. \u201cI\u2019ve had more steroid treatment recently, which caused me to put a bit of the weight back on, but now I know what to do to lose it again.\u201d Mrs Holder-Wooloff added: \u201cIt\u2019s still difficult for him because he can\u2019t do his sports, and even swimming is off because of the tubes that go into his body. But he has definitely slimmed down and is happier.\u201d * Oxford GP Dr Tia MacGregor, who is based at St Bartholomew's Surgery in Manzil Way, East Oxford, backed the idea as a good way to combat the effect steroids have on a patient\u2019s metabolism. She added: \u201cI would be wary of some of the \u2018faddier\u2019 diets that suggest dropping calorie intake to something ridiculous like 400 a day, but recognised classes such as these are perfectly fine.\u201d",
+  "corrections": {
+    "Bicester": [
+      51.9,
+      -1.15
+    ],
+    "Oxford": [
+      51.7522,
+      -1.25596
+    ]
+  },
+  "predictions": {
+    "Bicester": [
+      51.9,
+      -1.0833
+    ],
+    "Oxford": [
+      51.7542,
+      -1.2435
+    ]
+  }
+},
+{
+  "id": "44238160",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4249199.Knife_held_to_throat_of_Oxford_taxi_driver/",
+  "text": "Knife held to throat of Oxford taxi driver. A knife was held to a taxi driver\u2019s throat during an attempted robbery just yards from an Oxford police station. The taxi was called to an address in Cleveland Drive,close to Cowley police station at about 11.30pm last night. Two men got in before one of them held a knife to the driver\u2019s throat and demanded cash. The driver reversed suddenly, surprising the robbers, who got out and fled. One of the robbers wais about 6ft and aged about 16. The other is thought to be in his 20s and was much shorter. Anyone with information should call Cowley police station on 08458 505505 or Crimestoppers on 0800 555111.",
+  "corrections": {
+    "Oxford": [
+      51.7522,
+      -1.25596
+    ],
+    "Cowley": [
+      51.7167,
+      -1.21667
+    ]
+  },
+  "predictions": {
+    "Oxford": [
+      51.7539,
+      -1.25
+    ],
+    "Cleveland Drive": [
+      51.7553,
+      -1.2447
+    ],
+    "Cowley": [
+      51.7485,
+      -1.2558
+    ]
+  }
+},
+{
+  "id": "44238163",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4249079.Religious_rage_at_Oxfordshire_s_contraceptive_pill_by_text/",
+  "text": "Religious rage at Oxfordshire's contraceptive pill by text. A SCHEME to allow schoolchildren in Oxfordshire to ask for the morning-after pill by text message has been condemned by religious leaders. From July, girls as young as 11 at four secondary schools in Oxford and two in Banbury will be able to text requests for the pill \u2013 without their parents\u2019 knowledge \u2013 if they have had unprotected sex, or believe contraception has failed. The move outraged members of the Catholic Church \u2013 however both authorities say they have received no complaints about the scheme. Chairman of the Oxford Central Mosque Sabir Hussain Mirza said: \u201cI\u2019m absolutely shocked this kind of thing is happening. \u201cThis is a disaster allowing under-age children to do this without the knowledge of their parents. \u201cThere\u2019s too much freedom given to the children and they don\u2019t know the meaning of their freedom.\u201d Rabbi Eli Brackman, leader of the Oxford\u2019s Jewish society said: \u201cBritain has long had the highest rate of teenage pregnancy in Europe. \u201cHowever, I believe strongly that parents need to be involved in a child\u2019s upbringing and any measures that sideline that relationship is not healthy for the child and not healthy for society.\u201d But Anglican minister Roger Burne, a former GP, expressed his support for the scheme. Mr Burne, minister at the Church of the Holy Family in Blackbird Leys, said: \u201cIt sounds an eminently sensible idea to me. \u201cThey are using text as a means of putting young girls who are in trouble in touch with professional help. \u201cI\u2019d far rather girls in that situation had that conversation, whatever the outcome of them taking the morning-after pill or not, if they are concerned. Dr Burne, a former GP at St Bartholomew's in Cowley Road added: \u201cGoing to see your doctor particularly if you\u2019re young is not an easy thing to do especially if they are your family doctor regardless of whether it should be confidential. \u201cIf my daughter was 15 and worried that she maybe pregnant I\u2019d far rather she had the chance to make an initial contact in a way that was comfortable for her.\u201d \u201cI would be worried about not confiding in parents but sometimes that\u2019s not the easiest thing to do.\u201d Carole Partlett, a teenage pregnancy support worker at the John Radcliffe Hospital, said: \u201cI think it\u2019s a really good idea. \u201cKids text all the time and the way I make most of my contacts with young mums is through texting.",
+  "corrections": {
+    "County of Oxfordshire": [
+      51.8333,
+      -1.25
+    ],
+    "Oxford": [
+      51.7522,
+      -1.25596
+    ],
+    "Banbury": [
+      52.05,
+      -1.33333
+    ],
+    "United Kingdom of Great Britain and Northern Ireland": [
+      54.0,
+      -4.0
+    ]
+  },
+  "predictions": {
+    "Oxford": [
+      51.7547,
+      -1.2553
+    ],
+    "Banbury": [
+      52.0664,
+      -1.3335
+    ],
+    "Blackbird Leys": [
+      51.7489,
+      -1.2728
+    ],
+    "Cowley Road": [
+      51.7556,
+      -1.2733
+    ],
+    "St Bartholomew's": [
+      51.7556,
+      -1.2733
+    ],
+    "London": [
+      51.5074,
+      -0.1278
+    ],
+    "Buckinghamshire": [
+      51.8333,
+      -0.75
+    ],
+    "Cheshire": [
+      53.1667,
+      -2.25
+    ],
+    "Cumbria": [
+      54.6667,
+      -2.9167
+    ],
+    "Derbyshire": [
+      53.1667,
+      -1.5
+    ],
+    "Devon": [
+      50.7167,
+      -3.9667
+    ],
+    "East Riding of Yorkshire": [
+      54.0667,
+      -0.3333
+    ],
+    "Gloucestershire": [
+      51.9167,
+      -2.0833
+    ],
+    "Hampshire": [
+      50.9333,
+      -1.1667
+    ],
+    "Herefordshire": [
+      52.0667,
+      -2.75
+    ],
+    "Hertfordshire": [
+      51.8333,
+      -0.3333
+    ],
+    "Kent": [
+      51.25,
+      0.6667
+    ],
+    "Lancashire": [
+      53.7833,
+      -2.4167
+    ],
+    "Leicestershire": [
+      52.6333,
+      -1.0833
+    ],
+    "Lincolnshire": [
+      53.25,
+      -0.5
+    ],
+    "Merseyside": [
+      53.4167,
+      -2.9167
+    ],
+    "Norfolk": [
+      52.5333,
+      1.2833
+    ],
+    "North Yorkshire": [
+      54.1667,
+      -0.75
+    ],
+    "Northamptonshire": [
+      52.25,
+      -0.9167
+    ],
+    "Nottinghamshire": [
+      53.0833,
+      -1.0833
+    ],
+    "Rutland": [
+      52.5833,
+      -0.75
+    ],
+    "Shropshire": [
+      52.6667,
+      -2.9167
+    ],
+    "Somerset": [
+      51.1667,
+      -2.9667
+    ],
+    "South Yorkshire": [
+      53.5,
+      -1.25
+    ],
+    "Staffordshire": [
+      52.9833,
+      -2.0833
+    ],
+    "Suffolk": [
+      52.1667,
+      0.9167
+    ],
+    "Warwickshire": [
+      52.3333,
+      -1.5
+    ],
+    "West Midlands": [
+      52.55,
+      -1.9167
+    ],
+    "Wiltshire": [
+      51.25,
+      -2.0833
+    ]
+  }
+},
+{
+  "id": "44238165",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4249045.Oxford_clothes_swapping_parties_look_Swish_/",
+  "text": "Oxford clothes swapping parties look Swish! . WOMEN raced to get their hands on each other\u2019s clothes during a charity fundraiser in Oxford. The \u2018swishing\u2019 event, at Baby Simple bar in Cowley Road on Saturday, was held in aid of pioneering East Oxford children\u2019s hospice Helen & Douglas House. Dozens of women of all ages brought in clothes they no longer wanted and exchanged them for new items. They each paid a \u00a35 fee to take part in the event, with all proceeds going to the Magdalen Road hospice. Helen Cordiner, a fundraising assistant at the hospice, said: \u201cPeople were really generous and the feedback was that they all spotted something they liked.\u201d Doors opened an hour before the \u2018swish\u2019 began, giving participants a chance to hand over clothes, bags, shoes, accessories and jewellery, and check out what other people had to offer. There was no fighting in the aisles but high-fives were exchanged as the fashionistas managed to get their hands on coveted items of clothing. She said: \u201cI think it\u2019s a brilliant idea \u2014 I had never heard of swishing before this.\u201d Anna Winstanley, 25, from Marston, brought several coats that didn\u2019t fit or that she had bought on a whim. She successfully swished them for a dress and skirt she spotted early on. Ms Winstanley said: \u201cI came with a few friends and we had spies around the room who knew what we wanted. \u201cI think it\u2019s a brilliant idea, especially in the current economic climate, and Helen & Douglas House is a brilliant cause.\u201d Fiona Evans, 27, who works at the hospice organising activity events, said: \u201cI brought a bag with about 20 things in it and me and my friend actually swished before we got here between the two of us. Miss Cordiner said she hoped Saturday\u2019s fundraiser, which attracted about 30 people, would be the first of many similar events. She also called on people to organise their own swishing sessions among friends, where they could charge a small fee to go towards the hospice. CLOTHES swapping parties first started in America several years ago but have started coming into their own in the UK in the last two years. Swishes are often arranged by ethical charities, with the idea being that clothes swapping stops good quality clothes being thrown away, and means people can update their wardrobes for free. Celebrities such as Kylie, Naomi Campbell and Kelly Osbourne have handed over their own clothes for swishing parties, and Gwyneth Paltrow and Lindsay Lohan are said to be confirmed fans. Twiggy is credited with popularising the fad on her Frock Exchange TV show.",
+  "corrections": {
+    "Oxford": [
+      51.7522,
+      -1.25596
+    ],
+    "Marston": [
+      51.7667,
+      -1.23333
+    ],
+    "United States": [
+      39.76,
+      -98.5
+    ]
+  },
+  "predictions": {
+    "Oxford": [
+      51.7547,
+      -1.2553
+    ],
+    "Cowley Road": [
+      51.7554,
+      -1.2568
+    ],
+    "Magdalen Road": [
+      51.7535,
+      -1.2579
+    ],
+    "Marston": [
+      52.0247,
+      -1.2733
+    ],
+    "Hartford": [
+      51.7554,
+      -0.9838
+    ],
+    "London": [
+      51.5074,
+      -0.1278
+    ],
+    "Buckinghamshire": [
+      51.6667,
+      -0.7333
+    ],
+    "Gloucestershire": [
+      52.0009,
+      -2.1335
+    ],
+    "Warwickshire": [
+      52.2831,
+      -1.6334
+    ],
+    "Northamptonshire": [
+      52.2508,
+      -0.9333
+    ],
+    "Cambridgeshire": [
+      52.2006,
+      0.1333
+    ],
+    "Suffolk": [
+      52.1667,
+      1.2833
+    ],
+    "Essex": [
+      51.7833,
+      0.9833
+    ],
+    "Hertfordshire": [
+      51.7509,
+      -0.3334
+    ],
+    "Bedfordshire": [
+      52.2508,
+      -0.5001
+    ]
+  }
+},
+{
+  "id": "44278038",
+  "source": "http://www.thisisoxfordshire.co.uk/news/4249653.Liz_Hurley_to_open_new_Bicester_Village_boutique/",
+  "text": "Liz Hurley to open new Bicester Village boutique. Actress and model Elizabeth Hurley will be at Bicester Village, in Pingle Drive, on Thursday to open her new beach boutique at the designer outlet shopping centre. She will be at the shop from noon until 2pm and will help to serve customers. The store will be selling a pink bikini and embroidered pink sarong on the launch day and will donate takings from their sale to the Breast Cancer Research Foundation.",
+  "corrections": {
+    "Bicester": [
+      51.9,
+      -1.15
+    ]
+  },
+  "predictions": {
+    "Bicester": [
+      51.9333,
+      -1.0833
+    ],
+    "Pingle Drive": [
+      51.9334,
+      -1.0832
+    ]
+  }
+},
+{
+  "id": "38551552",
+  "source": "http://www.oxfordpress.com/n/content/oh/story/news/local/2009/03/14/hjn031409taxesinside.html?cxtype=rss&cxsvc=7&cxcat=16",
+  "text": "IRS audit finds Butler County employees should have been paying taxes on perks. HAMILTON \u2014 Staring down the barrel of a potential $500,000 assessment for back taxes, Butler County Auditor Roger Reynolds said the county is drafting policies to make sure employees pay taxes on fringe benefits in the future. It's unclear why the county wasn't paying these taxes. Former deputy auditor Randy Groves said in 2007 county officials were unaware these items were taxable until shortly before an ongoing Internal Revenue Service audit began that year. That audit is wrapping up now, and is finding that county employees should have paid taxes on roughly $1.5 million for perks such as use of county cars, cell phones and uniforms. Since the county didn't report those perks as income, that bill may soon go to the county. While county leaders agree the county will comply, some also question the wisdom of the tax code. For example, the IRS wants to tax employees who are given county cell phones because they could use them off the clock. But county policy prohibits employees from using cell phones for personal use. \"Why is the telephone on my desk any different from my cell phone?\" said Commissioner Gregory Jolivette, who called the IRS rule \"crazy.\" The IRS wants to tax the county for roughly $580,000 spent on employee cell phones, roughly $720,000 spent on uniforms and roughly $250,000 for vehicles employees take home. This includes parts of uniforms worn by sheriff's deputies, such as T-shirts and certain pants that could conceivably be worn mowing the lawn at home. But a deputy would be fired for doing so, according to Sheriff's Office Chief Deputy Anthony Dwyer. In addition to deputies, Jolivette said it's vital that utility workers and others in the public have uniforms that clearly identify them as county employees. \"Is that worker, when not in the field, supposed to go back to the office and change into a shirt that they own to go out to lunch?\" Jolivette said. \"It doesn't make sense.\" Other fringe benefits the IRS wants to tax are tuition reimbursement, travel allowances and parking passes. Reynolds said the original assessment against the county was higher than $500,000 and could go down further as he works with a tax attorney in negotiations with the IRS. \"We are currently working on reducing the outstanding amount,\" he said. But he's not looking for a fight with the tax man. \"The IRS has its rules,\" he said. \"It's not for me to decide what those rules are, it's up to me to adhere to those rules as put forward by the IRS and I'll do that to the best of my ability.\"",
+  "corrections": {
+    "Butler County": [
+      39.4501,
+      -84.5666
+    ],
+    "Hamilton": [
+      39.3995,
+      -84.5613
+    ]
+  },
+  "predictions": {
+    "Butler County": [
+      39.4442,
+      -84.7003
+    ],
+    "Hamilton": [
+      39.4464,
+      -84.6906
+    ],
+    "United States": [
+      39.7832,
+      -100.4715
+    ],
+    "Canada": [
+      60,
+      -95
+    ],
+    "London": [
+      42.9833,
+      -81.25
+    ],
+    "Middletown": [
+      39.5422,
+      -84.2458
+    ],
+    "New York City": [
+      40.7127,
+      -74.006
+    ],
+    "Oakland": [
+      37.8044,
+      -122.2739
+    ],
+    "Pittsburgh": [
+      40.4393,
+      -79.9515
+    ],
+    "Raleigh": [
+      35.7872,
+      -78.6387
+    ],
+    "San Diego": [
+      32.7157,
+      -117.1611
+    ],
+    "St. Louis": [
+      38.6279,
+      -90.1994
+    ],
+    "Toledo": [
+      41.6663,
+      -83.2535
+    ]
+  }
+},
+{
+  "id": "43739910",
+  "source": "http://www.oxfordpress.com/n/content/oh/story/news/local/2009/03/30/hjn033009missbutler.html?cxtype=rss&cxsvc=7&cxcat=16",
+  "text": "West Chester woman named Miss Butler County. HAMILTON \u2014 To the sounds of Kelly Clarkson's \"A Moment Like This,\" Rebekah Zoz of West Chester Twp. walked away the crown at the Miss Greater Butler County Pageant Sunday night, March 29. Winning the Miss Teen title was Veronica Wende, 16, of Lima, and 9-year-old Au'Lauren Million of Middletown took the Little Miss title. All three winners were amazed at their success, and it hadn't quite sunk in Sunday night at the Heaven Sent Wedding Chapel. \"I pretty much can't think about this yet,\" said Zoz, a 20-year-old University of Cincinnati student. Zoz will receive a $500 college scholarship and the chance to compete for the Miss Ohio title in Mansfield this June. The Mansfield winner may then compete for the Miss America title. \"It's really great. I'm just thankful I won,\" said Million. She also won the People's Choice Award by popular vote from the audience. The contestants had to impress a panel of judges based on their skill at answering questions, modeling swimsuits and evening wear, and their performing talent. The first runner-ups were Hannah Smalls of Oxford in the Little Miss category, Kaitlin Craig of Elida in the Teen category and Devon Stansbury of Rockford in the Miss category. The program is open to contestants that live, work or attend school in Butler, Clark, Hamilton, Madison, Montgomery, Preble or Warren counties.",
+  "corrections": {
+    "West Chester": [
+      40.2337,
+      -81.3443
+    ],
+    "Butler County": [
+      39.4501,
+      -84.5666
+    ],
+    "Hamilton": [
+      39.3995,
+      -84.5613
+    ],
+    "Township of West Chester": [
+      39.3331,
+      -84.3883
+    ],
+    "Lima": [
+      40.7425,
+      -84.1052
+    ],
+    "Middletown": [
+      39.5151,
+      -84.3983
+    ],
+    "Cincinnati": [
+      39.162,
+      -84.4569
+    ],
+    "Ohio": [
+      40.2503,
+      -83.0002
+    ],
+    "Mansfield": [
+      40.7584,
+      -82.5154
+    ],
+    "United States": [
+      39.76,
+      -98.5
+    ],
+    "Oxford": [
+      39.507,
+      -84.7452
+    ],
+    "Elida": [
+      40.7887,
+      -84.2038
+    ],
+    "Rockford": [
+      40.6878,
+      -84.6466
+    ],
+    "Clark County": [
+      39.9167,
+      -83.7666
+    ],
+    "Hamilton County": [
+      39.1834,
+      -84.5333
+    ],
+    "Madison County": [
+      39.8667,
+      -83.4333
+    ],
+    "Montgomery County": [
+      39.7503,
+      -84.2999
+    ],
+    "Preble County": [
+      39.7503,
+      -84.6333
+    ],
+    "Warren County": [
+      39.4334,
+      -84.1666
+    ]
+  },
+  "predictions": {
+    "West Chester": [
+      39.3833,
+      -84.0667
+    ],
+    "Hamilton": [
+      39.4444,
+      -84.1667
+    ],
+    "Lima": [
+      40.3542,
+      -84.0708
+    ],
+    "Middletown": [
+      39.5556,
+      -84.2253
+    ],
+    "Oxford": [
+      39.5,
+      -84.7
+    ],
+    "Elida": [
+      40.6,
+      -84.3
+    ],
+    "Rockford": [
+      39.75,
+      -84.4
+    ],
+    "Mansfield": [
+      40.2,
+      -82.5
+    ]
+  }
+},
+{
+  "id": "43921285",
+  "source": "http://www.oxfordpress.com/n/content/oh/story/news/local/2009/03/27/op032709briefly.html?cxtype=rss&cxsvc=7&cxcat=16",
+  "text": "Yard waste drop-off on first Saturdays. City of Oxford residents are again being offered the opportunity to recycle yard waste at the city's Municipal Garage at 945 Collins Run Road, on the first Saturday of each month from April 4 through Jan. 2, from 9 a.m. to 1 p.m. Residents will be able to dispose of acceptable yard waste items for recycling at no charge. Brush, branches, leaves and miscellaneous vegetative debris may be loose, contained in paper bags, or bundled with biodegradable cord. Branches and limbs are limited to eight feet in length with a diameter of four inches or less. The city is not able to accept the following items for recycling: grass clippings, sod, shrub and tree root balls with attached soil, and any solid, hazardous, household, electronic and special wastes, etc. Waste that does not meet criteria will not be accepted at the facility. Residents are required to remove yard waste from their vehicle as city staff cannot be responsible for damage to a resident's vehicle or property. This recycling opportunity is offered to Oxford residents and is not intended for use by commercial landscapers or property management companies. Identification may be required to prove city residency. City of Oxford Yard Waste Curb Side Recycling is available every week on regular refuse pickup days March through November and on the first full week of the months December through February.",
+  "corrections": {
+    "Oxford": [
+      39.507,
+      -84.7452
+    ]
+  },
+  "predictions": {
+    "Oxford": [
+      39.5,
+      -83.0
+    ],
+    "Collins Run Road": [
+      39.5,
+      -83.0
+    ]
+  }
+},
+{
+  "id": "44009830",
+  "source": "http://www.oxfordpress.com/n/content/oh/story/news/local/2009/03/30/mj033109bradley.html?cxtype=rss&cxsvc=7&cxcat=16",
+  "text": "Man charged with murder picked up in area. MIDDLETOWN \u2014 A man charged with murder in a recent Indiana homicide has been captured by Middletown police. Officers received a tip through the Crimestoppers tip line in South Bend, Ind., that a South Bend homicide suspect was in Middletown, according to local police records. Police found Jermaine Bradley, 28, in an apartment in the 600 block of North Verity Parkway about 9 p.m. Saturday, March 28.",
+  "corrections": {
+    "Middletown": [
+      39.5151,
+      -84.3983
+    ],
+    "Indiana": [
+      40.0003,
+      -86.2503
+    ],
+    "South Bend": [
+      41.6834,
+      -86.25
+    ]
+  },
+  "predictions": {
+    "Middletown": [
+      39.5553,
+      -84.0714
+    ],
+    "Indiana": [
+      40.4667,
+      -86.0667
+    ],
+    "South Bend": [
+      41.6668,
+      -86.2592
+    ]
+  }
+},
+{
+  "id": "44037398",
+  "source": "http://www.oxfordpress.com/n/content/oh/story/news/local/2009/03/30/hjn033109health.html?cxtype=rss&cxsvc=7&cxcat=16",
+  "text": "Local health centers to land $198K in federal funds. BUTLER COUNTY \u2014 Butler County Community health centers are expected to get about $198,000 of $8 million in federal funds to increase staff, hours and expand pediatric care. The money recently released by the U.S. Department of Health and Human Services to Ohio public health agencies was made available by the American Recovery and Reinvestment Act to Ohio community health centers. The funds are meant to help community health centers statewide expand programs at a time when an ever-growing number of Americans are uninsured, officials said. \"It's very timely,\" said Don Reimer, chief financial officer of the Butler County Community Health Consortium. \"We saw an increase in patients in the fourth quarter of 2008 and continue to see an increase in uninsured patients along with a mix of new patients.\" Reimer said county officials will use the additional funds to increase pediatric care, increase hours and staff at its facilities in Hamilton and Middletown. The Butler County Health Consortium is among 32 federally qualified health centers in Ohio that received funds, according to the U.S. Department of Health and Human Services. The health centers are required to use the funds over the next two years to create or retain approximately 147 health center jobs by expanding operations hours, adding providers or expanding services, HHS officials said. The funds are the second set of health center grants provided through the Recovery Act and will provide care to an additional 51,039 patients in Ohio in the next two years. On March 2, President Obama announced grants worth $155 million to 126 new health centers.",
+  "corrections": {
+    "Butler County": [
+      39.4501,
+      -84.5666
+    ],
+    "United States": [
+      39.76,
+      -98.5
+    ],
+    "Ohio": [
+      40.2503,
+      -83.0002
+    ],
+    "Hamilton": [
+      39.3995,
+      -84.5613
+    ],
+    "Middletown": [
+      39.5151,
+      -84.3983
+    ]
+  },
+  "predictions": {
+    "Butler County": [
+      39.4753,
+      -84.3334
+    ],
+    "Hamilton": [
+      39.4667,
+      -84.7006
+    ],
+    "Middletown": [
+      39.5631,
+      -84.2458
+    ],
+    "Ohio": [
+      40.5,
+      -82.6667
+    ],
+    "United States": [
+      37.0,
+      -95.7129
+    ]
+  }
+},
+{
+  "id": "44289359",
+  "source": "http://www.oxfordpress.com/n/content/oh/story/news/local/2009/03/31/op040309opdwebjuvenile.html?cxtype=rss&cxsvc=7&cxcat=16",
+  "text": "Juvenile arrested in Oxford bar had mother's blessing. Follow Hall of Famer Hal McCoy as he covers the Reds in spring training. Police arrested a 16-year-old female while conducting bar checks over the weekend, reporting the juvenile had obtained drinks at Brick Street Bar using a wristband her mother had given to her. Officers said they observed the girl exit the bar carrying on open bottle of beer, then stopped her for an open container violation. The suspect, of Pickerington, Ohio, allegedly told police she was in Oxford visiting along with her mother, who had already left the bar. Police said the juvenile initially told them she was 20, but said she had received a wristband marking her as over 21 from her mother. The girl reportedly became belligerent toward officers and was taken to the Oxford Police Department, where dispatchers alerted officers she was actually 16. The girl's mother did not appear concerned that her juvenile daughter was drinking in a bar at 1:40 in the morning, police said, asking officers to not cite her daughter. The juvenile was issued a citation for offenses involving underage persons and was released.",
+  "corrections": {
+    "Oxford": [
+      39.507,
+      -84.7452
+    ],
+    "Pickerington": [
+      39.8842,
+      -82.7535
+    ],
+    "Ohio": [
+      40.2503,
+      -83.0002
+    ]
+  },
+  "predictions": {
+    "Oxford": [
+      39.5133,
+      -84.8334
+    ],
+    "Pickerington": [
+      39.7997,
+      -82.8768
+    ]
+  }
+},
+{
+  "id": "38543488",
+  "source": "http://www.woodstocksentinelreview.com/ArticleDisplay.aspx?e=1477217",
+  "text": "Harding reminds audience not to let fear of the world's economy become a self-fulfilling prophecy. Mayor Michael Harding reminded a chamber of commerce audience Thursday morning not to let its fear of the world's economy become a self-fulfilling prophecy. Harding, speaking to the annual Woodstock District Chamber of Commerce Mayor's Breakfast at the Quality Hotel and Suites, parlayed a few anecdotes of looking fear in the face into one of the themes he touched on during his 45-minute presentation. At first referring to a first time skippering a sailboat on Lake Ontario in rough waters, the mayor told and then returned to an experience piloting a glider. Putting the aircraft into a downward spiral, the craft fell 10 storeys before his instructor yelled over his shoulder 'hard left rudder.' \"Just as quickly, the plane corrected itself, because it wants to fly,\" Harding said, repeating the line with a slight change to end his address. \"If we behave totally out of fear, our situation will become a self-fulfilling prophecy. Every one of you is tightening your belts, but just like the glider... the plane wants to fly.\" He used these two anecdotes as examples of looking fear in the face and confronting it, extending his point that Woodstock is faring better than others within what's happening in the world economy. Showing slides of panic-driven media coverage of past economic slowdowns -- some of which never materialized -- Harding pointed out how media often fuel the fires of fear. A fear through which one should keep a steady hand on the tiller, or the rudder. He laid out his case pointing to information he's referred to in previous Mayor's Breakfasts -- the city's 25 years of action in buying and servicing industrial land. Doing so feeds the strategy to get an increasing share of property taxes from residential into other classes. Speaking to the city's first industrial park, Patullo Ridge, the mayor pointed out how city council in 1983-84 bought the 126 hectares for the park and serviced it with an initial investment of $2 million. It has reaped $4 million in land sales and 845 jobs since, and its industries have paid $2.7 million in property taxes to the city alone. The return on investment for the city took barely two years. Harding also touched on the 21 new projects within the city in 2008, a list capped by the issuance of the building permit for the new Woodstock General Hospital, the story behind which he said had yet to be fully told. He highlighted other city accomplishments such as the Carnegie Library's 100th anniversary, the new recycling and water conservation programs and changes to public transportation. He also highlighted upcoming successes such as the second phase of Cowan Park and the summer's Ontario ParaSport Games in July. He urged those in attendance to tell the city if they're having difficulties, so the city would have the opportunity to do what it can. \"If you're doing badly, we're doing badly. We can't tax what isn't there,\" Harding said. \"We want to help, our staff wants to help, council wants to help. We'll even hold your hand for a bit, but you have to ask.\"",
+  "corrections": {
+    "Woodstock": [
+      43.1334,
+      -80.7497
+    ],
+    "Lake Ontario": [
+      43.7501,
+      -77.9995
+    ],
+    "Ontario": [
+      49.2501,
+      -84.4998
+    ]
+  },
+  "predictions": {
+    "Woodstock": [
+      43.2333,
+      -80.8833
+    ],
+    "Lake Ontario": [
+      44.0,
+      -78.25
+    ],
+    "Ontario": [
+      45.4167,
+      -79.25
+    ],
+    "Cowan Park": [
+      43.1667,
+      -80.9333
+    ],
+    "Patullo Ridge": [
+      43.2333,
+      -80.8833
+    ],
+    "United States": [
+      39.7392,
+      -98.6842
+    ]
+  }
+}

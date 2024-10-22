@@ -4,7 +4,7 @@ import time
 import asyncio
 import requests
 
-system_content = "You are an assitant that strictly extracts geographic references from the input. For each location, provide the place-name (exactly as in the text), the latitude and the longitude of the place as a json-object, like { name: place-name, position: [latitude, longitude] }. Create a json-list out of these objects. In the list, there should be no repetitive places with the same place-name. The positions should be as precise as possible. Please only return the json-string with no explanation or further information and as a normal text without labeling it as json."
+system_content = "You are an assitant that strictly extracts geographic references from the input. For each location, provide the place-name (exactly as in the text), the latitude and the longitude of the place as a json-object, like { name: place-name, position: [latitude, longitude] }. Create a json-list out of these objects. In the list, there should be no repetitive places with the same place-name. Only extract the places that are mentioned in the input. The positions should be as precise as possible. Please only return the json-string with no explanation or further information and as a normal text without labeling it as json."
 'Command for LLM-system'
 
 async def geoparseTextSelfHosted(text: str, provider: dict):
@@ -12,6 +12,7 @@ async def geoparseTextSelfHosted(text: str, provider: dict):
         Geoparsing text with a selfhosted LLM
     '''
     response = requests.post(
+        timeout=10 * 60,
         url=provider["data"]["hostserver_url"] + '/chat/completions',
         json={
             "model": provider["data"]["model"],
@@ -119,6 +120,10 @@ async def geoparseData(version: int):
                 
                 file.write(json.dumps(new_data, indent=2))
                 file.write(",\n")
+            except requests.exceptions.Timeout:
+                with open("output.txt", "a") as output_file:
+                    print(f"Skipping: {i}", file=output_file)
+                continue
             except Exception as e:
                 print(e)
                 break
