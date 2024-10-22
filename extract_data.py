@@ -65,6 +65,8 @@ async def geoparseTextSelfHosted(text: str, provider: dict):
 
 # 557 data objects
 async def geoparseData(version: int):
+    start_time = time.time()
+
     with open("data/lgl.json", "r") as file:
         dataset = json.load(file)
 
@@ -136,15 +138,14 @@ async def geoparseData(version: int):
         file.seek(file.tell() - 2)
         file.write("\n]")
 
+        end_time = time.time()
         if skipped:
             with open("output.txt", "a") as output_file:
+                print(f"elapsed time: {round(end_time-start_time, 2)} s", file=file)
                 print(f"----------------- Total: {skipped}", file=output_file)
 
 if __name__ == "__main__": 
-    start_time = time.time()
-    asyncio.run(geoparseData(4))
-    end_time = time.time()
-    print(f"elapsed time: {end_time-start_time}")
+    asyncio.run(geoparseData(5))
 
     # FT2: Average elapsed time: 3077.05 ~ 51.3 min
     # FT3: Average elapsed time: 17776.91 ~ 296.28 min ~ 4.93 h
