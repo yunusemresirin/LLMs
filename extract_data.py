@@ -98,12 +98,15 @@ async def geoparseData(version: int):
         if pos > 1:
             file.write(",\n")
 
-        for i in range(100*(version-1)+34, 100*version):
+        start = 100*(version-1)+10
+        end = start + 100
+        for i in range(start, end):
             data = dataset[i]
 
-            count = i-100*(version-1)
+            count = i-start
             print(count)
 
+            skipped = 0
             try:
                 predictions = await geoparseTextSelfHosted(data['text'], provider)
 
@@ -119,8 +122,10 @@ async def geoparseData(version: int):
                 }
                 
                 file.write(json.dumps(new_data, indent=2))
-                file.write(",\n")
+                if count < end: 
+                    file.write(",\n")
             except requests.exceptions.Timeout:
+                skipped += 1
                 with open("output.txt", "a") as output_file:
                     print(f"Skipping: {i}", file=output_file)
                 continue
@@ -131,11 +136,16 @@ async def geoparseData(version: int):
         file.seek(file.tell() - 2)
         file.write("\n]")
 
+        if skipped:
+            with open("output.txt", "a") as output_file:
+                print(f"----------------- Total: {skipped}", file=output_file)
+
 if __name__ == "__main__": 
     start_time = time.time()
     asyncio.run(geoparseData(4))
     end_time = time.time()
-    print(f"elapsed_time: {end_time-start_time}")
+    print(f"elapsed time: {end_time-start_time}")
 
     # FT2: Average elapsed time: 3077.05 ~ 51.3 min
     # FT3: Average elapsed time: 17776.91 ~ 296.28 min ~ 4.93 h
+    # FT4 - 2/3: Average elapsed time: 10236.34 ~ 170.61 min ~ 2.84 h

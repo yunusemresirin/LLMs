@@ -74,34 +74,36 @@ async def evaluationAndTraining(version: int):
 
     precision, recall, f1_score, matched_coordinates = await compute_precision_recall_f1(dataset, "corrections", "predictions")
 
-    print(precision)
-    print(recall)
-    print(f1_score)
-    print(round(await calculate_A_at_k(matched_coordinates, 10),2))
-    print(round(await calculate_A_at_k(matched_coordinates, 161),2))
+    with open(f"output_FT{version}.txt", "w") as file:
+        print(f"precision:\t{precision}", file=file)
+        print(f"recall:\t{recall}", file=file)
+        print(f"f1_score:\t{f1_score}", file=file)
+        print("\n", file=file)
+        print(f"A@k - 10:\t{round(await calculate_A_at_k(matched_coordinates, 10),2)}", file=file)
+        print(f"A@k - 161:\t{round(await calculate_A_at_k(matched_coordinates, 161),2)}", file=file)
 
-    response = requests.post(
-        url='http://127.0.0.1:8571/api/retrain',
-        json={
-            "feedback": dataset,
-            "provider": {
-                "option": "selfhosted",
-                "instance_name": "Remote_Backend_LLaMA 3.1 8B",
-                "temperature": 0,
-                "data": {
-                    "hostserver_url": "http://127.0.0.1:1234/v1",
-                    "model": "Llama-3.1-8B-Instruct-finetuned/gguf/unsloth.Q4_K_M.gguf",
-                    "threshold_retrain_job": 100
+        response = requests.post(
+            url='http://127.0.0.1:8571/api/retrain',
+            json={
+                "feedback": dataset,
+                "provider": {
+                    "option": "selfhosted",
+                    "instance_name": "Remote_Backend_LLaMA 3.1 8B",
+                    "temperature": 0,
+                    "data": {
+                        "hostserver_url": "http://127.0.0.1:1234/v1",
+                        "model": "Llama-3.1-8B-Instruct-finetuned/gguf/unsloth.Q4_K_M.gguf",
+                        "threshold_retrain_job": 100
+                    }
                 }
-            }
-        }, 
-        headers={"Content-Type": "application/json"},
-    )
-    
-    print(response.json())
+            }, 
+            headers={"Content-Type": "application/json"},
+        )
+        
+        print(response.json(), file=file)
 
 if __name__ == "__main__": 
     start_time = time.time()
-    asyncio.run(evaluationAndTraining(3))
+    asyncio.run(evaluationAndTraining(4))
     end_time = time.time()
     print(f"elapsed_time: {end_time-start_time}")
