@@ -4,7 +4,7 @@ import time
 import asyncio
 import requests
 
-system_content = "You are an assitant that strictly extracts geographic references from the input. For each location, provide the place-name (exactly as in the text), the latitude and the longitude of the place as a json-object, like { name: place-name, position: [latitude, longitude] }. Create a json-list out of these objects. In the list, there should be no repetitive places with the same place-name. Only extract the places that are mentioned in the input. The positions should be as precise as possible. Please only return the json-string with no explanation or further information and as a normal text without labeling it as json."
+system_content = "You are an assistant that strictly and exclusively extracts geographic references mentioned in the user-input. For each location, provide the exact place-name as it appears in the input, along with its latitude and longitude, as a JSON object (e.g., { 'name': 'place-name', 'position': [latitude, longitude] }). Only return locations mentioned in the text. Under no circumstances should you add or generate locations not present in the text. The list must only contain the exact places mentioned and must be as precise as possible. Please return the result in JSON format without any explanations or labels."
 'Command for LLM-system'
 
 async def geoparseTextSelfHosted(text: str, provider: dict):
@@ -12,7 +12,6 @@ async def geoparseTextSelfHosted(text: str, provider: dict):
         Geoparsing text with a selfhosted LLM
     '''
     response = requests.post(
-        timeout=10 * 60,
         url=provider["data"]["hostserver_url"] + '/chat/completions',
         json={
             "model": provider["data"]["model"],
@@ -58,13 +57,14 @@ async def geoparseTextSelfHosted(text: str, provider: dict):
             "stream": False
         }, 
         headers={"Content-Type": "application/json"},
+        timeout=10 * 60,
     )
     output=response.json()
     
     return json.loads(output['choices'][0]['message']['content'])
 
 # 557 data objects
-async def geoparseData(version: int):
+async def geoparseData(model: str, version: int):
     start_time = time.time()
 
     with open("data/lgl.json", "r") as file:
@@ -76,7 +76,7 @@ async def geoparseData(version: int):
         "temperature": 0,
         "data": {
             "hostserver_url": "http://127.0.0.1:1234/v1",
-            "model": "Llama-3.1-8B-Instruct-finetuned/gguf/unsloth.Q4_K_M.gguf",
+            "model": model,
             "threshold_retrain_job": 100
         }
     }
@@ -100,8 +100,8 @@ async def geoparseData(version: int):
         if pos > 1:
             file.write(",\n")
 
-        start = 100*(version-1)+10
-        end = start + 100
+        start = 100*(version-1)
+        end = start + 57
         for i in range(start, end):
             data = dataset[i]
 
@@ -128,7 +128,7 @@ async def geoparseData(version: int):
                     file.write(",\n")
             except requests.exceptions.Timeout:
                 skipped += 1
-                with open("output.txt", "a") as output_file:
+                with open(f"output_train_dataset_ft{version}.txt", "a") as output_file:
                     print(f"Skipping: {i}", file=output_file)
                 continue
             except Exception as e:
@@ -145,7 +145,9 @@ async def geoparseData(version: int):
                 print(f"----------------- Total: {skipped}", file=output_file)
 
 if __name__ == "__main__": 
-    asyncio.run(geoparseData(5))
+    import sys
+
+    asyncio.run(geoparseData(model=sys.argv[-2], version=int(sys.argv[-1])))
 
     # FT2: Average elapsed time: 3077.05 ~ 51.3 min
     # FT3: Average elapsed time: 17776.91 ~ 296.28 min ~ 4.93 h

@@ -69,18 +69,19 @@ async def calculate_A_at_k(matched_coordinates, k):
     return accuracy_at_k
 
 async def evaluationAndTraining(version: int):
+    start_time = time.time()
+
     with open(f"data/train_dataset_ft{version}.json") as file:
         dataset = json.load(file)
 
     precision, recall, f1_score, matched_coordinates = await compute_precision_recall_f1(dataset, "corrections", "predictions")
 
     with open(f"output_FT{version}.txt", "w") as file:
-        print(f"precision:\t{precision}", file=file)
-        print(f"recall:\t{recall}", file=file)
-        print(f"f1_score:\t{f1_score}", file=file)
-        print("\n", file=file)
+        print(f"precision:\t{precision}",   file=file)
+        print(f"recall: \t{recall}",        file=file)
+        print(f"f1_score:\t{f1_score}\n",   file=file)
         print(f"A@k - 10:\t{round(await calculate_A_at_k(matched_coordinates, 10),2)}", file=file)
-        print(f"A@k - 161:\t{round(await calculate_A_at_k(matched_coordinates, 161),2)}", file=file)
+        print(f"A@k - 161:\t{round(await calculate_A_at_k(matched_coordinates, 161),2)}\n", file=file)
 
         response = requests.post(
             url='http://127.0.0.1:8571/api/retrain',
@@ -92,7 +93,7 @@ async def evaluationAndTraining(version: int):
                     "temperature": 0,
                     "data": {
                         "hostserver_url": "http://127.0.0.1:1234/v1",
-                        "model": "Llama-3.1-8B-Instruct-finetuned/gguf/unsloth.Q4_K_M.gguf",
+                        "model": f"Llama-3.1-8B-Instruct-finetuned-{version-1}/gguf/unsloth.Q4_K_M.gguf",
                         "threshold_retrain_job": 100
                     }
                 }
@@ -100,10 +101,12 @@ async def evaluationAndTraining(version: int):
             headers={"Content-Type": "application/json"},
         )
         
-        print(response.json(), file=file)
+        json.dump(response.json(), fp=file, indent=2)
 
-if __name__ == "__main__": 
-    start_time = time.time()
-    asyncio.run(evaluationAndTraining(4))
-    end_time = time.time()
-    print(f"elapsed_time: {end_time-start_time}")
+        end_time = time.time()
+        print(f"\n\nelapsed_time: {end_time-start_time}", file=file)
+
+if __name__ == "__main__":
+    import sys
+
+    asyncio.run(evaluationAndTraining(int(sys.argv[-1])))
