@@ -1,26 +1,26 @@
-precision:	0.6200417536534447
-recall: 	0.8048780487804879
-f1_score:	0.7004716981132075
+precision:	0.3165217391304348
+recall: 	0.8666666666666667
+f1_score:	0.4636942675159236
 
-A@k - 10:	45.12
-A@k - 161:	90.57
+A@k - 10:	34.07
+A@k - 161:	90.11
 
 {
   "message": "Finetuning process completed. Model has been saved.",
   "trainer_train_stats": {
-    "train_runtime": 339.7002,
-    "train_samples_per_second": 0.589,
-    "train_steps_per_second": 0.071,
-    "total_flos": 1.7632320597491712e+16,
-    "train_loss": 0.6476899472375711,
-    "epoch": 1.92
+    "train_runtime": 170.6484,
+    "train_samples_per_second": 0.668,
+    "train_steps_per_second": 0.082,
+    "total_flos": 8700149848276992.0,
+    "train_loss": 0.840274589402335,
+    "epoch": 1.9310344827586206
   },
   "trainer_eval_stats": {
-    "eval_loss": 1.1333094835281372,
-    "eval_model_preparation_time": 0.0095,
-    "eval_runtime": 55.6275,
-    "eval_samples_per_second": 1.798,
-    "eval_steps_per_second": 0.899
+    "eval_loss": 1.339349627494812,
+    "eval_model_preparation_time": 0.0111,
+    "eval_runtime": 28.1109,
+    "eval_samples_per_second": 2.028,
+    "eval_steps_per_second": 1.032
   },
   "trainer_args": {
     "output_dir": "outputs",
@@ -53,7 +53,7 @@ A@k - 161:	90.57
     "log_level": "passive",
     "log_level_replica": "warning",
     "log_on_each_node": true,
-    "logging_dir": "outputs/runs/Oct24_15-23-49_wr14",
+    "logging_dir": "outputs/runs/Oct24_15-48-49_wr14",
     "logging_strategy": "steps",
     "logging_first_step": false,
     "logging_steps": 1,
@@ -168,28 +168,27 @@ A@k - 161:	90.57
   }
 }
 
-elapsed_time: 664.4481244087219
+elapsed_time: 471.53428840637207
 ----------------- camcoder -----------------
-precision:	0.7067039106145251
-recall: 	0.6856368563685636
-f1_score:	0.6960110041265475
+precision:	0.715
+recall: 	0.680952380952381
+f1_score:	0.697560975609756
 
-A@k - 10:	67.59
-A@k - 161:	75.89
+A@k - 10:	55.94
+A@k - 161:	66.43
 
 ----------------- clavin -----------------
-precision:	0.7517482517482518
-recall: 	0.5826558265582655
-f1_score:	0.6564885496183205
+precision:	0.7074829931972789
+recall: 	0.49523809523809526
+f1_score:	0.5826330532212887
 
-A@k - 10:	71.63
-A@k - 161:	73.95
+A@k - 10:	61.54
+A@k - 161:	69.23
 
 ----------------- mordecai -----------------
-precision:	0.6656441717791411
-recall: 	0.5880758807588076
-f1_score:	0.6244604316546764
+precision:	0.6885245901639344
+recall: 	0.6
+f1_score:	0.6412213740458015
 
-A@k - 10:	56.68
-A@k - 161:	64.98
-
+A@k - 10:	44.44
+A@k - 161:	60.32
