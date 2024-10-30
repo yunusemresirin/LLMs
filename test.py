@@ -74,8 +74,19 @@
 
 # del output
 
-import json
+# import json
 
-with open("data/train_dataset_ft6.json", "r") as file:
-    dataset = json.load(file)
-    print(len(dataset))
+# with open("data/lgl.json", "r") as file:
+#     dataset = json.load(file)
+#     print(len(dataset))
+
+import xml.etree.ElementTree as ET
+
+# Load the XML file
+file_path = 'data/lgl.xml'
+tree = ET.parse(file_path)
+root = tree.getroot()
+
+# Count the number of articles in the XML
+num_articles = len(root.findall('article'))
+print(num_articles)
